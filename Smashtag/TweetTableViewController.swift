@@ -149,14 +149,23 @@ class TweetTableViewController: UITableViewController, UITextFieldDelegate
         return true
     }
     */
+    
+    // MARK: - Delegation
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        performSegueWithIdentifier("Show Mentions", sender: indexPath)
+    }
 
-    /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using [segue destinationViewController].
         // Pass the selected object to the new view controller.
+        if let destinationViewController = segue.destinationViewController as? MentionsTableViewController {
+            if let indexPath = sender as? NSIndexPath {
+                let tweet = tweets[indexPath.section][indexPath.row]
+                destinationViewController.tweet = tweet
+            }
+        }
     }
-    */
 }

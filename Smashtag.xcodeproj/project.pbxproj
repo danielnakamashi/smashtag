@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		297D07B31C75412A0046C218 /* MentionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297D07B21C75412A0046C218 /* MentionsTableViewController.swift */; };
+		297D07B51C7549790046C218 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297D07B41C7549790046C218 /* ImageTableViewCell.swift */; };
+		297D07B71C7549900046C218 /* UrlTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297D07B61C7549900046C218 /* UrlTableViewCell.swift */; };
+		297D07B91C7549A20046C218 /* HashtagTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297D07B81C7549A20046C218 /* HashtagTableViewCell.swift */; };
+		297D07BB1C7549B20046C218 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297D07BA1C7549B20046C218 /* UserTableViewCell.swift */; };
+		297D07BE1C7550B20046C218 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 297D07BC1C7550B20046C218 /* Main.storyboard */; };
 		EC6876171A898EF4006B5FDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6876161A898EF4006B5FDB /* AppDelegate.swift */; };
-		EC68761C1A898EF4006B5FDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC68761A1A898EF4006B5FDB /* Main.storyboard */; };
 		EC68761E1A898EF4006B5FDB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC68761D1A898EF4006B5FDB /* Images.xcassets */; };
 		EC6876211A898EF4006B5FDB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC68761F1A898EF4006B5FDB /* LaunchScreen.xib */; };
 		EC68762D1A898EF4006B5FDB /* SmashtagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC68762C1A898EF4006B5FDB /* SmashtagTests.swift */; };
@@ -31,10 +36,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		297D07B21C75412A0046C218 /* MentionsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MentionsTableViewController.swift; sourceTree = "<group>"; };
+		297D07B41C7549790046C218 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		297D07B61C7549900046C218 /* UrlTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlTableViewCell.swift; sourceTree = "<group>"; };
+		297D07B81C7549A20046C218 /* HashtagTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HashtagTableViewCell.swift; sourceTree = "<group>"; };
+		297D07BA1C7549B20046C218 /* UserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		297D07BD1C7550B20046C218 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC6876111A898EF4006B5FDB /* Smashtag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smashtag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC6876151A898EF4006B5FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC6876161A898EF4006B5FDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EC68761B1A898EF4006B5FDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC68761D1A898EF4006B5FDB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EC6876201A898EF4006B5FDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		EC6876261A898EF4006B5FDB /* SmashtagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmashtagTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,9 +97,14 @@
 		EC6876131A898EF4006B5FDB /* Smashtag */ = {
 			isa = PBXGroup;
 			children = (
-				EC68761A1A898EF4006B5FDB /* Main.storyboard */,
+				297D07BC1C7550B20046C218 /* Main.storyboard */,
 				EC6876361A898F4D006B5FDB /* TweetTableViewController.swift */,
 				EC6876411A8994BB006B5FDB /* TweetTableViewCell.swift */,
+				297D07B21C75412A0046C218 /* MentionsTableViewController.swift */,
+				297D07B41C7549790046C218 /* ImageTableViewCell.swift */,
+				297D07B61C7549900046C218 /* UrlTableViewCell.swift */,
+				297D07B81C7549A20046C218 /* HashtagTableViewCell.swift */,
+				297D07BA1C7549B20046C218 /* UserTableViewCell.swift */,
 				EC6876381A898FC6006B5FDB /* Twitter */,
 				EC6876141A898EF4006B5FDB /* Supporting Files */,
 			);
@@ -181,7 +196,7 @@
 			attributes = {
 				LastSwiftMigration = 0720;
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Stanford University";
 				TargetAttributes = {
 					EC6876101A898EF4006B5FDB = {
@@ -217,7 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC68761C1A898EF4006B5FDB /* Main.storyboard in Resources */,
+				297D07BE1C7550B20046C218 /* Main.storyboard in Resources */,
 				EC6876211A898EF4006B5FDB /* LaunchScreen.xib in Resources */,
 				EC68761E1A898EF4006B5FDB /* Images.xcassets in Resources */,
 			);
@@ -237,8 +252,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				297D07B31C75412A0046C218 /* MentionsTableViewController.swift in Sources */,
+				297D07B71C7549900046C218 /* UrlTableViewCell.swift in Sources */,
 				EC6876171A898EF4006B5FDB /* AppDelegate.swift in Sources */,
 				EC68763F1A898FC6006B5FDB /* TwitterRequest.swift in Sources */,
+				297D07BB1C7549B20046C218 /* UserTableViewCell.swift in Sources */,
+				297D07B51C7549790046C218 /* ImageTableViewCell.swift in Sources */,
+				297D07B91C7549A20046C218 /* HashtagTableViewCell.swift in Sources */,
 				EC6876401A898FC6006B5FDB /* User.swift in Sources */,
 				EC6876371A898F4D006B5FDB /* TweetTableViewController.swift in Sources */,
 				EC68763D1A898FC6006B5FDB /* MediaItem.swift in Sources */,
@@ -266,10 +286,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EC68761A1A898EF4006B5FDB /* Main.storyboard */ = {
+		297D07BC1C7550B20046C218 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EC68761B1A898EF4006B5FDB /* Base */,
+				297D07BD1C7550B20046C218 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -305,6 +325,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -370,6 +391,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Smashtag/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.stanford.cs193p.instructor.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -380,6 +402,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Smashtag/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.stanford.cs193p.instructor.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -398,6 +421,7 @@
 				);
 				INFOPLIST_FILE = SmashtagTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.stanford.cs193p.instructor.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smashtag.app/Smashtag";
 			};
@@ -413,6 +437,7 @@
 				);
 				INFOPLIST_FILE = SmashtagTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.stanford.cs193p.instructor.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smashtag.app/Smashtag";
 			};
